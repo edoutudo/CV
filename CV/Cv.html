@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+  <!-- Vos fichiers d'entête ci dessous, pour lier style.css et ajouter la webfont 'Open Sans'-->
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" media="screen and (max-width: 1280px)" href="" />
+  
+  	<title>Mon CV</title>
+</head>
+
+<body>
+
+<!-- Créer une navagation ici   -->
+			<nav id="navigation">
+				<a href="#logo" class="boutonlogo">Edouard Tudorache</a>
+				<!-- <a href="#accueil" class="boutonmenu">Accueil</a>
+				<a href="#formation" class="boutonmenu">Formation</a>
+				<a href="#travaux" class="boutonmenu">Travaux</a>
+				<a href="#contact" class="boutonmenu">Contact</a> -->
+			</nav>
+
+
+<!-- Créer la section accueil ici   -->
+			<section id="accueil">
+				<h1 class="titre">CV</br>HTML</br><img id="html5" src="html5.jpg"></h1>
+				<audio src="credence clearwater revival - sweet home alabama - forrest gump.mp3" controls></audio>
+			</section>
+
+<!-- Créer la section formation ici   -->
+			<section id="formation">
+				<h1 class="titre">Formation</h1>
+			</section>
+
+<!-- Créer la section travaux ici   -->
+			<section id="travaux">
+				<h1 class="titre">Travaux</h1>
+				<!-- Créer le tableau ici -->
+					<table>
+						<thead>
+       						<td>Titre</td>
+       						<td>Vignette</td>
+       						<td>Technologie / Technique utilisée</td>
+       						<td>Date</td>
+   						</thead>
+   						<thead>
+       						<td><a href="file:///C:/Users/Camille/Desktop/CV/Cv.html"> Mon CV </td>
+       						<td> <img src="dvlpmt.jpg"></td>
+       						<td>HTML, CSS, JS</td>
+       						<td>13/11/2016</td>
+   						</thead>
+					</table> 
+
+			</section>
+
+<!-- Créer la section contact ici   -->
+			<section id="contact">
+				<h1 class="titre">Contact</h1>
+				<!-- Créer le formulaire ici -->	
+				<form method="post" action="traitement.php">
+							<p>		
+
+									<input type="email" placeholder="Tapez votre adresse mail">
+									<br>
+									<br>
+
+								<label for="newsletter" class="checkbox">
+									<input type="checkbox" name="checkbox" id="newsletter"> 
+									<span class="rounded"><span></span></span> S'abonner à la newsletter
+								</label>
+									<br>
+									<br>
+
+								<label for="Message" id="message"> Votre message ici :</label>
+									<br>
+
+								<textarea name="message" rows="10" cols="50" >
+								</textarea>
+									<br>
+									<br>
+
+								<input type="submit"/>
+								
+							</p>
+					</form>
+
+			</section>
+<script type="text/javascript" src="index.js"></script>
+</html>
